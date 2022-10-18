@@ -28,9 +28,6 @@ var cname = prompt("请输入你的名字", "名字");
 var mm = prompt("请输入你的学号", "学号");
 
 ; //查找元素
-var a = cname + " " + mm;
-console.log(document.getElementById("demo"));
+var a = "学生："+cname + " " + mm;
 document.getElementById("demo").innerHTML = a; //改变内容
 
-
-//		document.write("<p style='color: red;'>"+name+"</p>")
