@@ -26,7 +26,7 @@ function checkTime(i) {
 }
 var cname = prompt("请输入你的名字", "名字");
 var mm = prompt("请输入你的学号", "学号");
-var a = cname + " " + mm;
+var a = cname + "-" + mm;
 document.getElementById("demo").innerHTML = a; //改变内容
 
 
